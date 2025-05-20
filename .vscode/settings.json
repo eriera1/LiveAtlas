@@ -6,5 +6,8 @@
   "eslint.nodePath": ".yarn/sdks",
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "vite.buildCommand": "yarn run build",
+  "vite.devCommand": "yarn run serve",
+  "vite.port": 8080
 }

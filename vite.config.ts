@@ -28,7 +28,7 @@ export default defineConfig(({ mode }) => {
     })],
     base: './',
     server: {
-    host: '0.0.0.0',
+    host: 'localhost',
       port: 8080
     },
     resolve: {

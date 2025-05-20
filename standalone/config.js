@@ -16,12 +16,12 @@
 
 window.config = {
  url : {
-  configuration: 'http://dynmap.local/standalone/MySQL_configuration.php',
-  update: 'http://dynmap.local/standalone/MySQL_update.php?world={world}&ts={timestamp}',
-  sendmessage: 'http://dynmap.local/standalone/MySQL_sendmessage.php',
-  login: 'http://dynmap.local/standalone/MySQL_login.php',
-  register: 'http://dynmap.local/standalone/MySQL_register.php',
-  tiles: 'http://dynmap.local/standalone/MySQL_tiles.php?tile=',
-  markers: 'http://dynmap.local/standalone/MySQL_markers.php?marker='
+  configuration: 'https://ula2server.ddns.net/map/standalone/configuration.php',
+  update: 'https://ula2server.ddns.net/map/standalone/update.php?world={world}&ts={timestamp}',
+  sendmessage: 'https://ula2server.ddns.net/map/standalone/sendmessage.php',
+  login: 'https://ula2server.ddns.net/map/standalone/login.php',
+  register: 'https://ula2server.ddns.net/map/standalone/register.php',
+  tiles: 'https://ula2server.ddns.net/map/standalone/tiles.php?tile=',
+  markers: 'https://ula2server.ddns.net/map/standalone/markers.php?marker='
  }
 };
